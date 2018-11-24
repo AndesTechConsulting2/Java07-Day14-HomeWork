@@ -17,9 +17,7 @@ loginTest
 
 profileTest
 
-pageTestCase01
-pageTestCase02
-pageTestCase03
+pageTestCase01, pageTestCase02, pageTestCase03
 
 logoffTest
    
