@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="12" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SiteSuite" duration-ms="188" started-at="2018-11-24T07:10:04Z" finished-at="2018-11-24T07:10:04Z">
+    <groups>
+      <group name="pageTests">
+        <method signature="AppTest.pageTestCase01()[pri:2, instance:ru.raiffeisen.training.AppTest@5ebec15]" name="pageTestCase01" class="ru.raiffeisen.training.AppTest"/>
+        <method signature="AppTest.pageTestCase02()[pri:2, instance:ru.raiffeisen.training.AppTest@5ebec15]" name="pageTestCase02" class="ru.raiffeisen.training.AppTest"/>
+        <method signature="AppTest.pageTestCase03()[pri:2, instance:ru.raiffeisen.training.AppTest@5ebec15]" name="pageTestCase03" class="ru.raiffeisen.training.AppTest"/>
+      </group> <!-- pageTests -->
+    </groups>
+    <test name="SiteLoginTest" duration-ms="94" started-at="2018-11-24T07:10:04Z" finished-at="2018-11-24T07:10:04Z">
+      <class name="ru.raiffeisen.training.AppTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:ru.raiffeisen.training.AppTest@36d64342]" name="loginTest" duration-ms="16" started-at="2018-11-24T07:10:04Z" finished-at="2018-11-24T07:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="logoffTest()[pri:3, instance:ru.raiffeisen.training.AppTest@36d64342]" name="logoffTest" duration-ms="0" started-at="2018-11-24T07:10:04Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-24T07:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoffTest -->
+        <test-method status="PASS" signature="profileTest()[pri:1, instance:ru.raiffeisen.training.AppTest@36d64342]" name="profileTest" duration-ms="0" started-at="2018-11-24T07:10:04Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-24T07:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileTest -->
+      </class> <!-- ru.raiffeisen.training.AppTest -->
+    </test> <!-- SiteLoginTest -->
+    <test name="SitePageTests" duration-ms="16" started-at="2018-11-24T07:10:04Z" finished-at="2018-11-24T07:10:04Z">
+      <class name="ru.raiffeisen.training.AppTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:ru.raiffeisen.training.AppTest@5ebec15]" name="loginTest" duration-ms="0" started-at="2018-11-24T07:10:04Z" finished-at="2018-11-24T07:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="pageTestCase01()[pri:2, instance:ru.raiffeisen.training.AppTest@5ebec15]" name="pageTestCase01" duration-ms="0" started-at="2018-11-24T07:10:04Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-24T07:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTestCase01 -->
+        <test-method status="PASS" signature="pageTestCase02()[pri:2, instance:ru.raiffeisen.training.AppTest@5ebec15]" name="pageTestCase02" duration-ms="0" started-at="2018-11-24T07:10:04Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-24T07:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTestCase02 -->
+        <test-method status="PASS" signature="pageTestCase03()[pri:2, instance:ru.raiffeisen.training.AppTest@5ebec15]" name="pageTestCase03" duration-ms="0" started-at="2018-11-24T07:10:04Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-24T07:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTestCase03 -->
+      </class> <!-- ru.raiffeisen.training.AppTest -->
+    </test> <!-- SitePageTests -->
+  </suite> <!-- SiteSuite -->
+</testng-results>
