@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="12" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SiteSuite" duration-ms="125" started-at="2018-11-25T11:03:35Z" finished-at="2018-11-25T11:03:35Z">
+    <groups>
+      <group name="pageTest">
+        <method signature="AppTest.pageTestCase01()[pri:3, instance:ru.raiffeisen.training.AppTest@58ceff1]" name="pageTestCase01" class="ru.raiffeisen.training.AppTest"/>
+        <method signature="AppTest.pageTestCase02()[pri:3, instance:ru.raiffeisen.training.AppTest@58ceff1]" name="pageTestCase02" class="ru.raiffeisen.training.AppTest"/>
+        <method signature="AppTest.pageTestCase03(org.testng.ITestContext)[pri:3, instance:ru.raiffeisen.training.AppTest@58ceff1]" name="pageTestCase03" class="ru.raiffeisen.training.AppTest"/>
+        <method signature="AppTest.pageTestCase01()[pri:3, instance:ru.raiffeisen.training.AppTest@6bf256fa]" name="pageTestCase01" class="ru.raiffeisen.training.AppTest"/>
+        <method signature="AppTest.pageTestCase02()[pri:3, instance:ru.raiffeisen.training.AppTest@6bf256fa]" name="pageTestCase02" class="ru.raiffeisen.training.AppTest"/>
+        <method signature="AppTest.pageTestCase03(org.testng.ITestContext)[pri:3, instance:ru.raiffeisen.training.AppTest@6bf256fa]" name="pageTestCase03" class="ru.raiffeisen.training.AppTest"/>
+      </group> <!-- pageTest -->
+    </groups>
+    <test name="SiteLoginTest" duration-ms="62" started-at="2018-11-25T11:03:35Z" finished-at="2018-11-25T11:03:35Z">
+      <class name="ru.raiffeisen.training.AppTest">
+        <test-method status="PASS" signature="loginTest()[pri:-10, instance:ru.raiffeisen.training.AppTest@58ceff1]" name="loginTest" duration-ms="15" started-at="2018-11-25T11:03:35Z" finished-at="2018-11-25T11:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="pageTestCase02()[pri:3, instance:ru.raiffeisen.training.AppTest@58ceff1]" name="pageTestCase02" duration-ms="0" started-at="2018-11-25T11:03:35Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-25T11:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTestCase02 -->
+        <test-method status="PASS" signature="pageTestCase01()[pri:3, instance:ru.raiffeisen.training.AppTest@58ceff1]" name="pageTestCase01" duration-ms="0" started-at="2018-11-25T11:03:35Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-25T11:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTestCase01 -->
+        <test-method status="PASS" signature="pageTestCase03(org.testng.ITestContext)[pri:3, instance:ru.raiffeisen.training.AppTest@58ceff1]" name="pageTestCase03" duration-ms="0" started-at="2018-11-25T11:03:35Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-25T11:03:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@68837a77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTestCase03 -->
+        <test-method status="PASS" signature="logoffTest()[pri:5, instance:ru.raiffeisen.training.AppTest@58ceff1]" name="logoffTest" duration-ms="0" started-at="2018-11-25T11:03:35Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-25T11:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoffTest -->
+        <test-method status="PASS" signature="profileTest()[pri:-9, instance:ru.raiffeisen.training.AppTest@58ceff1]" name="profileTest" duration-ms="0" started-at="2018-11-25T11:03:35Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-25T11:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileTest -->
+      </class> <!-- ru.raiffeisen.training.AppTest -->
+    </test> <!-- SiteLoginTest -->
+    <test name="PageTest" duration-ms="16" started-at="2018-11-25T11:03:35Z" finished-at="2018-11-25T11:03:35Z">
+      <class name="ru.raiffeisen.training.AppTest">
+        <test-method status="PASS" signature="pageTestCase01()[pri:3, instance:ru.raiffeisen.training.AppTest@6bf256fa]" name="pageTestCase01" duration-ms="0" started-at="2018-11-25T11:03:35Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-25T11:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTestCase01 -->
+        <test-method status="PASS" signature="pageTestCase02()[pri:3, instance:ru.raiffeisen.training.AppTest@6bf256fa]" name="pageTestCase02" duration-ms="0" started-at="2018-11-25T11:03:35Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-25T11:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTestCase02 -->
+        <test-method status="PASS" signature="pageTestCase03(org.testng.ITestContext)[pri:3, instance:ru.raiffeisen.training.AppTest@6bf256fa]" name="pageTestCase03" duration-ms="0" started-at="2018-11-25T11:03:35Z" depends-on-methods="ru.raiffeisen.training.AppTest.loginTest" finished-at="2018-11-25T11:03:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7225790e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTestCase03 -->
+        <test-method status="PASS" signature="loginTest()[pri:-10, instance:ru.raiffeisen.training.AppTest@6bf256fa]" name="loginTest" duration-ms="0" started-at="2018-11-25T11:03:35Z" finished-at="2018-11-25T11:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- ru.raiffeisen.training.AppTest -->
+    </test> <!-- PageTest -->
+  </suite> <!-- SiteSuite -->
+</testng-results>
