@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SiteSuite">
+
+    <listeners>
+        <listener class-name="rbru.quickstart001.MyTestListener"/>
+         <listener class-name="rbru.quickstart001.MySuiteListener"/>
+    </listeners>
+
+    <test name="SiteLoginTest">
+        <groups>
+            <run>
+                <exclude name="pageTests"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="rbru.quickstart001"/>
+        </packages>
+    </test>
+
+    <test name="SitePageTests" parallel="methods" thread-count="10">
+        <groups>
+            <run>
+                <include name="pageTests"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="rbru.quickstart001"/>
+        </packages>
+    </test>
+
+</suite>
