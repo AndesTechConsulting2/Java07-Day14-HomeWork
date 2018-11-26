@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SiteSuite">
+    <listeners>
+        <listener class-name="com.party.TestListener"/>
+    </listeners>
+   
+    <test name="SiteLoginPageTest" thread-count="4">
+        <classes>
+            <class name="com.party.LoginTest"/>
+            <class name="com.party.PageTest"/>
+        </classes>
+    </test>
+</suite>
