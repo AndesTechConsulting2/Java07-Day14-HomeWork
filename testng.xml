@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SiteSuite">
+
+    <listeners>
+        <listener class-name="ru.raiffeisen.mikhaylova.TestListener"/>
+        <listener class-name="ru.raiffeisen.mikhaylova.SuiteListener"/>
+    </listeners>
+
+    <test name="SiteLoginTest">
+        <groups>
+            <run>
+                <exclude name="pageTests"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="ru.raiffeisen.mikhaylova"/>
+        </packages>
+    </test>
+
+    <test name="SitePageTests" parallel="methods" thread-count="5">
+        <groups>
+            <run>
+                <include name="pageTests"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="ru.raiffeisen.mikhaylova"/>
+        </packages>
+    </test>
+
+</suite>
